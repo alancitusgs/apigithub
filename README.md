@@ -10,12 +10,6 @@ You need to install package.json dependencies
 $ npm install
 ```
 
-## observations of improvements
- - Scale this app in AWS ECS containers for horizontal scaling.
- - It is possible to connect to a Redis Server for data caching in order to lighten the DB workload.
- - It is suggested to implement observability services to monitor the performance of the service in high concurrency. AWS Cloudwatch,   Grafana, New Relic.
- - It is possible to use SonarqUBE for secure code verification and technical debt reduction.
- - It is suggested to integrate a continuous deployment of CI/CD in some server. Gitlab suggestion.
 
 ## Running the app
 Run to start the project in local environment 
@@ -39,6 +33,14 @@ Ejecutar los test con coverage de las pruebas
 # test coverage
 $ npm run test:cov
 ```
+
+
+## observations of improvements
+ - Scale this app in AWS ECS containers for horizontal scaling.
+ - It is possible to connect to a Redis Server for data caching in order to lighten the DB workload.
+ - It is suggested to implement observability services to monitor the performance of the service in high concurrency. AWS Cloudwatch,   Grafana, New Relic.
+ - It is possible to use SonarqUBE for secure code verification and technical debt reduction.
+ - It is suggested to integrate a continuous deployment of CI/CD in some server. Gitlab suggestion.
 
 ## Support
 

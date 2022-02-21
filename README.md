@@ -3,6 +3,7 @@
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+With the GITHUB API it allows to build a backend with the commit list of a project.
 
 ## Installation
 You need to install package.json dependencies
